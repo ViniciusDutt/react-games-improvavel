@@ -18,8 +18,6 @@
 Projeto criado para fins de estudo, tendo como inspiração o quadro "Improvável" da Cia. Barbixas de Humor.
 A Cia. Barbixas de Humor é um grupo humorístico formado por Daniel Nascimento, Anderson Bizzocchi e Elidio Sanna.
 
-A aplicação contém 
-
 ## 🪵 Recursos
 
 - 6 Jogos disponíveis;
