@@ -9,15 +9,17 @@ const Navbar = ({ onMouseUp, onMouseDown, onClick }) => {
     <header className="navbar paper-shadow grid" id="header">
       <div />
       <div className="d-flex justify-space-between">
-        <img src={logo} width="192" />
+        <img src={logo} alt="" width="192" />
         <div>
           <img
+            alt=""
             className="bellButton"
             src={bellButton}
             onClick={onClick}
             height="32"
           />
           <img
+            alt=""
             className="buzzerButton"
             src={buzzerButton}
             onMouseDown={onMouseDown}

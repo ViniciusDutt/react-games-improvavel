@@ -22,7 +22,7 @@ const Games = ({
             {title}
           </h3>
           {paperImage && (
-            <img src={paperImage} width="128px" className="my-1" />
+            <img src={paperImage} alt="" width="128px" className="my-1" />
           )}
           <div className="d-flex justify-center align-center w-100">
             {buttonName && (

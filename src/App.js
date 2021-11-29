@@ -3,7 +3,7 @@ import "./theme/global.css";
 // Components
 import Navbar from "./components/navbar/navbar";
 import Games from "./components/games/games";
-import { PlayerContextProvider, usePlayer } from "./contexts/playerContext";
+import { usePlayer } from "./contexts/playerContext";
 
 // Assets
 import escolinhaImage from "./assets/escolinha.png";
