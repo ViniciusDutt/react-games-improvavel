@@ -8,19 +8,19 @@ const Navbar = ({ onMouseUp, onMouseDown, onClick, onTouchStart, onTouchEnd }) =
   return (
     <header className="navbar paper-shadow grid" id="header">
       <div />
-      <div className="d-flex justify-space-between">
+      <div className="d-flex justify-space-between noSelect">
         <img src={logo} alt="" width="192" />
         <div>
           <img
             alt=""
-            className="bellButton"
+            className="bellButton noSelect"
             src={bellButton}
             onClick={onClick}
             height="32"
           />
           <img
             alt=""
-            className="buzzerButton"
+            className="buzzerButton noSelect"
             src={buzzerButton}
             onMouseDown={onMouseDown}
             onMouseUp={onMouseUp}
