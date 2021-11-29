@@ -8,7 +8,7 @@
     <a href="#-tecnologia">Tecnologia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-execução">Execução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-build-do-projeto">Build do projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="https://jogos-improvavel.vercel.app/">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 <br/>
@@ -65,5 +65,3 @@ O build ira criar uma pasta chamada 'build' contendo todos os arquivos e pastas 
 # Faça o build do projeto
 $ npm run build
 ```
-
-## [Demo](https://google.com)
