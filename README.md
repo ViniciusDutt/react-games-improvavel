@@ -59,7 +59,7 @@ $ npm start
 
 ## 🚧 Build do projeto
 
-O build ira criar uma pasta chamada 'dist' contendo todos os arquivos e pastas do projeto;
+O build ira criar uma pasta chamada 'build' contendo todos os arquivos e pastas do projeto;
 
 ```bash
 # Faça o build do projeto
