@@ -24,11 +24,11 @@ A aplicação contém
 
 - 6 Jogos disponíveis;
 - +1900 combinações de personagens para o jogo "Escolinha Improvável";
-- +850 temas para os jogos "Quadrado Improvável e "Realidade Paralela";
+- +850 temas para os jogos "Quadrado Improvável" e "Realidade Paralela";
 - +60 temas para o jogo "Cenas Improváveis";
 - +20 temas para o jogo "Só Perguntas";
-- +15 temas para o jogo Título no Meio;
-- Música tema do jogo Escolinha Improvável;
+- +15 temas para o jogo "Título no Meio";
+- Música tema do jogo "Escolinha Improvável";
 - Botão de campainha;
 - Botão de sineta.
 
