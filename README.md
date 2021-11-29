@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+<p align="center">
+    <img src="./src/assets/logo-improvavel.svg" alt="Logo Improvável" width="250px" />
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+    <a href="#Projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#Recursos">Recursos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#Tecnologia">Tecnologia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#Execução">Execução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#Demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-## Available Scripts
+<br/>
 
-In the project directory, you can run:
+## 💻 Projeto
 
-### `npm start`
+Projeto criado para fins de estudo, tendo como inspiração o quadro "Improvável" da Cia. Barbixas de Humor.
+A Cia. Barbixas de Humor é um grupo humorístico formado por Daniel Nascimento, Anderson Bizzocchi e Elidio Sanna.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+A aplicação contém 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🪵 Recursos
 
-### `npm test`
+- 6 Jogos disponíveis;
+- +1900 combinações de personagens para o jogo "Escolinha Improvável";
+- +850 temas para os jogos "Quadrado Improvável e "Realidade Paralela";
+- +60 temas para o jogo "Cenas Improváveis";
+- +20 temas para o jogo "Só Perguntas";
+- +15 temas para o jogo Título no Meio;
+- Música tema do jogo Escolinha Improvável;
+- Botão de campainha;
+- Botão de sineta.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Tecnologia
 
-### `npm run build`
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [react-scroll](https://github.com/fisshy/react-scroll);
+- [react-howler](https://github.com/thangngoc89/react-howler)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+\* Para mais detalhes, veja **[package.json](./package.json)**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🧾 Execução
 
-### `npm run eject`
+```bash
+# Clone este repositório
+$ git clone https://github.com/viniciusdutt/react-games-improvavel.git
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd react-games-improvavel
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Instale as dependências
+$ npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Execute a aplicação
+$ npm start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🚧 Build do projeto
 
-## Learn More
+# O build ira criar uma pasta chamada 'dist' contendo todos os arquivos e pastas do projeto;
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Faça o build do projeto
+$ npm run build
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## [Demo](https://google.com)
