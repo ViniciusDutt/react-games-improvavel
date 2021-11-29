@@ -32,6 +32,8 @@ function App() {
       <Navbar
         onMouseDown={buzzerPress}
         onMouseUp={buzzerRelease}
+        onTouchStart={buzzerPress}
+        onTouchEnd={buzzerRelease}
         onClick={bellClick}
         className="paper-shadow"
       />

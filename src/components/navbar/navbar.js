@@ -4,7 +4,7 @@ import logo from "../../assets/logo-improvavel.svg";
 import buzzerButton from "../../assets/buzzer-button.svg";
 import bellButton from "../../assets/bell-button.svg";
 
-const Navbar = ({ onMouseUp, onMouseDown, onClick }) => {
+const Navbar = ({ onMouseUp, onMouseDown, onClick, onTouchStart, onTouchEnd }) => {
   return (
     <header className="navbar paper-shadow grid" id="header">
       <div />
@@ -24,6 +24,8 @@ const Navbar = ({ onMouseUp, onMouseDown, onClick }) => {
             src={buzzerButton}
             onMouseDown={onMouseDown}
             onMouseUp={onMouseUp}
+            onTouchStart={onTouchStart}
+            onTouchEnd={onTouchEnd}
             height="32"
           />
         </div>
