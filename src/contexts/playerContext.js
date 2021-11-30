@@ -9,19 +9,19 @@ export function PlayerContextProvider({ children }) {
 
   const gameSound = new Howl({
     src: ["./escolinha.mp3"],
-    volume: 0.8
+    volume: 0.8,
   });
 
   const buzzerSound = new Howl({
     src: ["./buzzer.mp3"],
     loop: true,
-    volume: 0.8
+    volume: 0.8,
   });
 
   const bellSound = new Howl({
     src: ["./bell.mp3"],
-    volume: 0.8
-  })
+    volume: 0.8,
+  });
 
   const handlePlay = () => {
     return gameSound.playing() ? gameSound.stop() : gameSound.play();
@@ -37,51 +37,24 @@ export function PlayerContextProvider({ children }) {
 
   const bellClick = () => {
     return bellSound.play();
-  }
+  };
+
+  const handlePlayGame = (game) => {
+    const index = Math.floor(Math.random() * gameThemesData[game].length);
+
+    setGameData({
+      name: gameThemesData[game][index],
+    });
+  };
 
   const handlePlayEscolinha = () => {
     const indexName = Math.floor(Math.random() * gameThemesData.name.length);
     const indexFeature = Math.floor(
       Math.random() * gameThemesData.feature.length
     );
+
     setGameData({
       name: `${gameThemesData.name[indexName]}\nque\n${gameThemesData.feature[indexFeature]}`,
-    });
-  };
-
-  const handlePlayCenas = () => {
-    const indexThemesCenas = Math.floor(
-      Math.random() * gameThemesData.themesCenas.length
-    );
-    setGameData({
-      name: gameThemesData.themesCenas[indexThemesCenas],
-    });
-  };
-
-  const handlePlayOccupation = () => {
-    const indexThemesOccupation = Math.floor(
-      Math.random() * gameThemesData.themesOccupation.length
-    );
-    setGameData({
-      name: gameThemesData.themesOccupation[indexThemesOccupation],
-    });
-  };
-
-  const handlePlayTitulo = () => {
-    const indexThemesTitulo = Math.floor(
-      Math.random() * gameThemesData.themesTitulo.length
-    );
-    setGameData({
-      name: gameThemesData.themesTitulo[indexThemesTitulo],
-    });
-  };
-
-  const handlePlayPlace = () => {
-    const indexThemesPlace = Math.floor(
-      Math.random() * gameThemesData.themesPlace.length
-    );
-    setGameData({
-      name: gameThemesData.themesPlace[indexThemesPlace],
     });
   };
 
@@ -94,10 +67,7 @@ export function PlayerContextProvider({ children }) {
         buzzerRelease,
         bellClick,
         handlePlayEscolinha,
-        handlePlayCenas,
-        handlePlayOccupation,
-        handlePlayTitulo,
-        handlePlayPlace,
+        handlePlayGame,
       }}
     >
       {children}
