@@ -5,6 +5,7 @@ import gameThemesData from "../assets/generate.json";
 export const PlayerContext = createContext({});
 
 export function PlayerContextProvider({ children }) {
+  
   const [gameData, setGameData] = useState({ name: "", feature: "" });
 
   const gameSound = new Howl({
