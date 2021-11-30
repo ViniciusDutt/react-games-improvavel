@@ -20,10 +20,7 @@ function App() {
     bellClick,
     handlePlay,
     handlePlayEscolinha,
-    handlePlayCenas,
-    handlePlayOccupation,
-    handlePlayTitulo,
-    handlePlayPlace,
+    handlePlayGame,
     gameData,
   } = usePlayer();
 
@@ -56,31 +53,31 @@ function App() {
           />
           <Games
             title="Cenas Improváveis"
-            onClick={handlePlayCenas}
+            onClick={() => handlePlayGame("themesCenas")}
             paperImage={cenasImage}
             buttonName="Gerar tema"
           />
           <Games
             title="Jogo do Quadrado"
-            onClick={handlePlayOccupation}
+            onClick={() => handlePlayGame("themesOccupation")}
             paperImage={quadradoImage}
             buttonName="Gerar tema"
           />
           <Games
             title="Título no Meio"
-            onClick={handlePlayTitulo}
+            onClick={() => handlePlayGame("themesTitulo")}
             paperImage={tituloImage}
             buttonName="Gerar tema"
           />
           <Games
             title="Realidade Paralela"
-            onClick={handlePlayOccupation}
+            onClick={() => handlePlayGame("themesOccupation")}
             paperImage={realidadeImage}
             buttonName="Gerar tema"
           />
           <Games
             title="Só Perguntas"
-            onClick={handlePlayPlace}
+            onClick={() => handlePlayGame("themesPlace")}
             paperImage={perguntasImage}
             buttonName="Gerar tema"
           />
