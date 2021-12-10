@@ -15,8 +15,8 @@
 
 ## 💻 Projeto
 
-Projeto criado para fins de estudo, tendo como inspiração o quadro "Improvável" da Cia. Barbixas de Humor.
-A Cia. Barbixas de Humor é um grupo humorístico formado por Daniel Nascimento, Anderson Bizzocchi e Elidio Sanna.
+Projeto criado para fins de estudo, tendo como inspiração o espetáculo "Improvável" da Cia. Barbixas de Humor.
+A Cia. Barbixas de Humor é um grupo humorístico formado por Anderson Bizzocchi, Daniel Nascimento e Elidio Sanna.
 
 ## 🪵 Recursos
 
